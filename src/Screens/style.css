@@ -1,0 +1,35 @@
+.leftSide {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    background: url('../assets/images/image.jpg') 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rightSide {
+    width: 50%;
+    height: 200vh;
+    float: right;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1CB5E0;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #000046; 
+  }

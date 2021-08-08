@@ -1,0 +1,75 @@
+.leftSide_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left_shadow {
+    background: linear-gradient(to bottom, #000046, #1CB5E0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.title {
+    color: white;
+    font-size: 4vw;
+}
+
+.description {
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5vw;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.github_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.github_icon:hover {
+    background-color: black;
+}
+
+.mail_icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+
+.mail_icon:hover {
+    background-color: red;
+}
+
+.linkedin_icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 500ms ease;
+}
+
+.linkedin_icon:hover {
+    background-color: #1CB5E0;
+}
