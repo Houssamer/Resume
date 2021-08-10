@@ -8,7 +8,7 @@ function LeftSide() {
     return (
         <div className="leftSide_container">
             <h2 className="title">RIAD Houssame</h2>
-            <h3 className="description">computer science engineering student</h3>
+            <h3 className="description_left">computer science engineering student</h3>
             <div className="socials">
                 <a href="https://github.com/Houssamer" target="_blank" rel="noreferrer">
                     <img 
