@@ -10,7 +10,7 @@ pipeline {
             steps {
                 nodejs("node") {
                     sh "npm install"
-                    sh "npm build"
+                    sh "npm run build"
                 }
             }
         }
@@ -19,7 +19,7 @@ pipeline {
         stage("deploy") {
 
             steps {
-                sh "docker build ."
+                sh "docker-compose up -d ."
             }
         }
         
