@@ -10,10 +10,11 @@ pipeline {
             sh "npm install"
             sh "npm build"
         }
-        
+
 
         stage("deploy") {
             sh "docker build ."
         }
+        
     }
 }
