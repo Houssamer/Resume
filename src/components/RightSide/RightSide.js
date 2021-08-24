@@ -11,7 +11,7 @@ function RightSide() {
                 </div>
                 <div className="introduction_description">
                     <p>
-                        Élève ingénieur en 2éme génie informatique à l'école Hassania
+                        Élève ingénieur en 2éme année génie informatique à l'école Hassania
                         des travaux public (EHTP) très ambitieux. 
                         Je suis très passionné dans le domaine de web et la création 
                         des applications web. Aussi que la gestion et la perfection de code
