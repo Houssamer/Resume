@@ -7,13 +7,19 @@ pipeline {
 
 
         stage("build") {
-            sh "npm install"
-            sh "npm build"
+
+            steps {
+                sh "npm install"
+                sh "npm build"
+            }
         }
 
 
         stage("deploy") {
-            sh "docker build ."
+
+            steps {
+                sh "docker build ."
+            }
         }
         
     }
